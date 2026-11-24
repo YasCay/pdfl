@@ -16,11 +16,6 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
@@ -32,7 +27,9 @@ jobs:
           sudo apt-get install -y --no-install-recommends \
             libglib2.0-bin \
             desktop-file-utils \
-            dbus
+            dbus \
+            python3-gi \
+            gir1.2-glib-2.0
 
       - name: Validate GNOME extension JS syntax
         run: |
