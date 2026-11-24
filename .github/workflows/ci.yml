@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install system validation dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            libglib2.0-bin \
+            desktop-file-utils \
+            dbus
+
+      - name: Validate GNOME extension JS syntax
+        run: |
+          for f in extension/pdfl@yascay.github.io/*.js; do
+            node --check "$f"
+          done
+
+      - name: Validate GSettings schema and desktop entry
+        run: |
+          glib-compile-schemas --strict --dry-run extension/pdfl@yascay.github.io/schemas
+          desktop-file-validate data/applications/io.github.yascay.pdfl.desktop
+
+      - name: Run unit test suite
+        run: |
+          python3 -m unittest discover -s tests -v

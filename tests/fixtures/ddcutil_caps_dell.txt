@@ -1,0 +1,24 @@
+(prot(monitor)type(lcd)model(Dell U2723QE)cmds(01 02 03 07 0C E3 F3)vcp(02 04 05 08 10 12 14(01 04 05 06 0B) 60(0F 11 1B) 62 D6(01 02 04) DF)mccs_ver(2.2))
+Model: Dell U2723QE
+MCCS version: 2.2
+VCP Features:
+   Feature: 10 (Brightness)
+   Feature: 12 (Contrast)
+   Feature: 14 (Select color preset)
+      Values:
+         01: sRGB
+         04: 5000K
+         05: 6500K
+         06: 7500K
+         0b: User 1
+   Feature: 60 (Input Source)
+      Values:
+         0f: DisplayPort-1
+         11: HDMI-1
+         1b: USB-C
+   Feature: 62 (Audio speaker volume)
+   Feature: D6 (Power mode)
+      Values:
+         01: DPM: On,  DPMS: Off
+         02: DPM: Off, DPMS: Standby
+         04: DPM: Off, DPMS: Off

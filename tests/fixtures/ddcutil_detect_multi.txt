@@ -1,0 +1,43 @@
+Invalid display
+   I2C bus:  /dev/i2c-2
+   DRM connector:           card1-eDP-1
+   EDID synopsis:
+      Mfg id:               LEN - Lenovo Group Limited
+      Model:                
+      Product code:         36946  (0x9052)
+      Serial number:        
+      Manufacture year:     2023,  Week: 0
+   DDC communication failed
+   Is the monitor laptop display?
+
+Display 1
+   I2C bus:  /dev/i2c-4
+   DRM connector:           card1-DP-1
+   Monitor:                 DEL:Dell U2723QE:CN04K921
+   EDID synopsis:
+      Mfg id:               DEL - Dell Inc.
+      Model:                Dell U2723QE
+      Product code:         16820  (0x41b4)
+      Serial number:        CN04K921
+      Binary serial number: 12345678 (0x00bc614e)
+      Manufacture year:     2024,  Week: 12
+   EDID hex dump:
+      +0000  00 ff ff ff ff ff ff 00 10 ac b4 41 4e 61 bc 00
+      +0010  0c 22 01 04 b5 3c 22 78 3a ee 95 a3 54 4c 99 26
+   VCP version:         2.2
+
+Display 2
+   I2C bus:  /dev/i2c-7
+   DRM connector:           card1-HDMI-A-1
+   Monitor:                 GSM:LG 34WN80C:
+   EDID synopsis:
+      Mfg id:               GSM - Goldstar Company Ltd
+      Model:                LG 34WN80C
+      Product code:         30112  (0x75a0)
+      Serial number:        unspecified
+      Binary serial number: 987654 (0x000f1206)
+      Manufacture year:     2023,  Week: 5
+   EDID hex dump:
+      +0000  00 ff ff ff ff ff ff 00 1e 6d a0 75 06 12 0f 00
+      +0010  05 21 01 04 b5 50 22 78 3a 56 e5 a3 54 4c 99 26
+   VCP version:         2.1

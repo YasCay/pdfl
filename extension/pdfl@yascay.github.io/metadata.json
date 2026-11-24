@@ -1,0 +1,11 @@
+{
+  "uuid": "pdfl@yascay.github.io",
+  "name": "Power Display for Linux",
+  "description": "Compact panel indicator and flyout for per-monitor brightness, contrast, volume, profiles, and safe Wayland rotation via pdfl-daemon.",
+  "shell-version": [
+    "50"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.pdfl",
+  "url": "https://github.com/YasCay/pdfl",
+  "version": 1
+}

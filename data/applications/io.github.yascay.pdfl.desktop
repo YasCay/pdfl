@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Power Display for Linux
+GenericName=Display & Brightness Control
+Comment=Control monitor brightness, contrast, volume, profiles, and Wayland rotation
+Exec=pdfl-settings
+Icon=io.github.yascay.pdfl
+Terminal=false
+Categories=Utility;Settings;HardwareSettings;GTK;
+Keywords=monitor;brightness;ddc;display;contrast;profile;
+StartupNotify=true
+StartupWMClass=io.github.yascay.pdfl

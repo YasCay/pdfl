@@ -1,0 +1,1 @@
+(prot(monitor)type(lcd)model(LG 34WN80C)cmds(01020307)vcp(02 10 12 14(01 05 08) 60(11 12 0F) DF)mccs_ver(2.1))

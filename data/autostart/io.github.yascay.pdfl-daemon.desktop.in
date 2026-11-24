@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Power Display for Linux Daemon
+Comment=D-Bus background service for Power Display for Linux
+Exec=@DAEMON_EXEC@
+Icon=io.github.yascay.pdfl
+Terminal=false
+NoDisplay=true
+X-GNOME-Autostart-enabled=true

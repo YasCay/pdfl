@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdfl"
+version = "1.0.0"
+description = "Power Display for Linux — native GNOME/Adwaita multi-monitor DDC/CI, backlight, and profile control"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+  { name = "YasCay" },
+]
+requires-python = ">=3.12"
+dependencies = []
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: X11 Applications :: GTK",
+  "Intended Audience :: End Users/Desktop",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Desktop Environment :: Gnome",
+  "Topic :: System :: Hardware",
+]
+
+[project.urls]
+Homepage = "https://github.com/YasCay/pdfl"
+Repository = "https://github.com/YasCay/pdfl"
+Issues = "https://github.com/YasCay/pdfl/issues"
+
+[project.scripts]
+pdfl = "pdfl.cli:main"
+pdfl-daemon = "pdfl.daemon:main"
+pdfl-settings = "pdfl.gui.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

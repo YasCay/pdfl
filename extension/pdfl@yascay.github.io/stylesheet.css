@@ -1,0 +1,217 @@
+.pdfl-menu {
+    min-width: 340px;
+    max-width: 400px;
+}
+
+.pdfl-header-row {
+    spacing: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.pdfl-header-title {
+    font-weight: bold;
+    font-size: 1.05em;
+}
+
+.pdfl-badge {
+    font-size: 0.78em;
+    padding: 2px 7px;
+    border-radius: 99px;
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.pdfl-badge-demo {
+    background-color: rgba(245, 194, 17, 0.25);
+}
+
+.pdfl-icon-button {
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+
+.pdfl-icon-button:checked {
+    background-color: rgba(53, 132, 228, 0.35);
+}
+
+.pdfl-scroll {
+    max-height: 440px;
+}
+
+.pdfl-monitor-card {
+    margin: 4px 8px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    spacing: 6px;
+}
+
+.pdfl-monitor-header {
+    spacing: 6px;
+}
+
+.pdfl-monitor-name {
+    font-weight: bold;
+}
+
+.pdfl-slider-row {
+    spacing: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.pdfl-slider-icon {
+    icon-size: 16px;
+}
+
+.pdfl-value-label {
+    min-width: 38px;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+.pdfl-error-label {
+    color: #ff7b63;
+    font-size: 0.85em;
+}
+
+.pdfl-info-label {
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 0.85em;
+}
+
+.pdfl-badge-software {
+    background-color: rgba(53, 132, 228, 0.28);
+}
+
+.pdfl-badge-inactive {
+    opacity: 0.72;
+}
+
+.pdfl-tooltip {
+    background-color: rgba(24, 24, 28, 0.96);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    padding: 5px 9px;
+    font-size: 0.84em;
+    max-width: 280px;
+}
+
+.pdfl-confirm-box,
+.pdfl-revert-banner {
+    margin: 4px 8px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    background-color: rgba(245, 194, 17, 0.16);
+    spacing: 6px;
+}
+
+.pdfl-button-row {
+    spacing: 8px;
+}
+
+.pdfl-action-btn {
+    padding: 4px 10px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.pdfl-action-btn-primary {
+    padding: 4px 10px;
+    border-radius: 6px;
+    background-color: rgba(53, 132, 228, 0.65);
+    font-weight: bold;
+}
+
+.pdfl-muted-label {
+    opacity: 0.78;
+    font-size: 0.9em;
+}
+
+.pdfl-qs-root {
+    spacing: 2px;
+}
+
+.pdfl-qs-slider-row {
+    spacing: 6px;
+}
+
+.pdfl-qs-header {
+    padding: 0 10px 0 38px;
+    spacing: 8px;
+}
+
+.pdfl-qs-title {
+    font-size: 0.85em;
+    font-weight: bold;
+    opacity: 0.86;
+}
+
+.pdfl-qs-value {
+    font-size: 0.85em;
+    opacity: 0.78;
+    font-variant-numeric: tabular-nums;
+}
+
+.pdfl-qs-status-box {
+    spacing: 1px;
+    padding: 2px 4px;
+}
+
+.pdfl-qs-status-title {
+    font-size: 0.92em;
+    font-weight: bold;
+}
+
+.pdfl-qs-status-subtitle {
+    font-size: 0.82em;
+    opacity: 0.75;
+}
+
+.pdfl-qs-menu-detail {
+    font-size: 0.88em;
+    opacity: 0.85;
+    max-width: 280px;
+}
+
+.pdfl-qs-menu-info {
+    font-size: 0.86em;
+    color: rgba(255, 255, 255, 0.80);
+    max-width: 280px;
+}
+
+.pdfl-qs-menu-error {
+    font-size: 0.86em;
+    color: #ff7b63;
+    max-width: 280px;
+}
+
+.pdfl-qs-menu-section-title {
+    font-size: 0.82em;
+    font-weight: bold;
+    opacity: 0.75;
+    padding-bottom: 2px;
+}
+
+.pdfl-qs-menu-slider-row {
+    spacing: 8px;
+}
+
+.pdfl-qs-preset-row {
+    spacing: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.pdfl-qs-preset-btn {
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 0.84em;
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+.pdfl-qs-preset-btn:checked {
+    background-color: rgba(53, 132, 228, 0.60);
+    font-weight: bold;
+}

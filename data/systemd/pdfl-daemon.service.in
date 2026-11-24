@@ -1,0 +1,14 @@
+[Unit]
+Description=Power Display for Linux D-Bus Daemon
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+Type=dbus
+BusName=io.github.yascay.pdfl.Daemon
+ExecStart=@DAEMON_EXEC@
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=graphical-session.target

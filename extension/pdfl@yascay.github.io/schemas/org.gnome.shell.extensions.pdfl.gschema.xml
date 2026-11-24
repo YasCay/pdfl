@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.pdfl" path="/org/gnome/shell/extensions/pdfl/">
+    <key name="toggle-flyout" type="as">
+      <default>['&lt;Super&gt;&lt;Alt&gt;d']</default>
+      <summary>Shortcut to toggle Power Display flyout</summary>
+      <description>Global GNOME Shell keyboard shortcut that opens or closes the Power Display panel flyout.</description>
+    </key>
+    <key name="panel-box" type="s">
+      <default>'right'</default>
+      <summary>Panel box alignment</summary>
+      <description>GNOME Shell top bar box where the Power Display indicator is placed (left, center, or right).</description>
+    </key>
+    <key name="panel-position" type="i">
+      <default>1</default>
+      <summary>Panel position index</summary>
+      <description>Insert index within the selected GNOME Shell top bar box.</description>
+    </key>
+  </schema>
+</schemalist>
